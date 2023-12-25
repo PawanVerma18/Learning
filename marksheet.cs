@@ -2,7 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Enter Your Name:");
+        Console.WriteLine("Enter Your full name::");
         string name=Console.ReadLine();
         Console.WriteLine("Enter Your ROll Number:");
         int roll_number=int.Parse(Console.ReadLine());
