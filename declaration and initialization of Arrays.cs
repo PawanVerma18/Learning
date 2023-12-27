@@ -32,6 +32,5 @@ public class arrays
         {
             Console.WriteLine(my_array3[0]);
         }
-
     }
 }
