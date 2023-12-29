@@ -2,24 +2,21 @@
 {
     public static void Main(string[] args)
     {
-        //int data type
-
-        int[] numbers = { 1, 23, 67, 989, 74, 36 };
-        foreach(int item in numbers)
+        int[,] number = new int[3, 4]
         {
-            Console.WriteLine(item);
-        }
+
+            {12,23,34,45},
+            {11,23,43,54},
+            {12,23,32,78},
+
+        };
+
+        Console.WriteLine(number[0, 1]);
 
 
-        Console.WriteLine("------------------------");
 
 
-        //  String data type
 
-        string[] names = new string[] { "Pawan", "Sam", "krishna", "sahil", "yash" };
-        foreach(string item in names)
-        {
-            Console.WriteLine(item);
-        }
+
     }
 }
