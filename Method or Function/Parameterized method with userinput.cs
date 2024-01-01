@@ -2,7 +2,7 @@
 
 public class program
 {
-    public static void Add(int num1,int num2) // parameterized method
+    public static void Add1(int num1,int num2) // parameterized method
     {
         int sum = num1 + num2;
         Console.WriteLine("The sum is:" +sum);
@@ -16,7 +16,7 @@ public class program
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter second number:");
             int b = Convert.ToInt32(Console.ReadLine());
-            program.Add(a, b);
+            program.Add1(a, b);
             Console.WriteLine("Do you want to restart your program:" + "Yes/No");
             string c = Console.ReadLine().ToLower();
 
